@@ -9,6 +9,7 @@
        url('fonts/noto-sans-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 body {
     height: 100vh;
@@ -42,4 +43,11 @@ body {
 
 .name-title {
     text-transform: lowercase;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        display: block;
+        padding-top: 200px;
+    }
 }
