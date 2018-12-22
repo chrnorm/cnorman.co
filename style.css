@@ -9,18 +9,19 @@ body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
-    border-left: 10px solid black;
-    border-right: 10px solid black;
+    border-left: 15px solid rgb(0, 117, 224);
+    border-right: 15px solid rgb(0, 117, 224);
+    color: rgb(0, 117, 224);
 }
 
 body:before,
 body:after {
   content: "";
   position: fixed;
-  background: black;
+  background: rgb(0, 117, 224);
   left: 0;
   right: 0;
-  height: 10px;
+  height: 15px;
 }
 
 body:before {
@@ -43,6 +44,7 @@ body:after {
 .icon-link {
     margin: 0 15px;
     width: 32px;
+    fill: rgb(0, 117, 224);
 }
 
 .name-title {
